@@ -302,7 +302,7 @@ public class Tetris extends JPanel{
 		for(Cell cell:cells){
 			int row = cell.getRow();
 			int col = cell.getCol();
-//			cell.setImage(O);
+			cell.setImage(O);
 			wall[row][col]=cell;
 		}
 	}
